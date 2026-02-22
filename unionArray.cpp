@@ -26,14 +26,14 @@ public:    vector<int> findUnion(vector<int> arr1, vector<int> arr2)
        j++;
      }
   }
-  while(i<n)
+  while(i<n) 
   {
     if (unionArr.size() == 0 || unionArr.back() != arr1[i]) 
     {
        unionArr.push_back(arr1[i]);
     } i++;
     
-  }
+  }// for remaining array
 
   while(j<m)
   {
@@ -57,7 +57,7 @@ int main(){
   cout << "Union of the two arrays is: ";
   for (int num : result) {
     cout << num << " ";
-  }
+  } 
   
   return 0;
 
