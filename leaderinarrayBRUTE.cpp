@@ -36,3 +36,4 @@ int main()
     }
     return 0;
 };
+// brute force approach take o(n^2) time complexity 
